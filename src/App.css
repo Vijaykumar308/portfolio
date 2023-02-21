@@ -4,7 +4,12 @@
   --black: #000;
   --color-background: hsl(210deg, 30%, 8%);
   --light-grey: #f8f8f8;
+  --primary-color-800: #15283c;
+  --secondary-color-500: #2bd232;
+  --secondary-color-100: #7bff80;
+  --dark-theam-content: #373737;
 }
+/* background: linear-gradient(270deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%); */
 .container{
     display: flex;
 }
@@ -19,4 +24,7 @@
 .contant{
     flex: 4;
     background-color: var(--light-grey);
+}
+::selection{
+    background-color: var(--secondary-color-100);
 }

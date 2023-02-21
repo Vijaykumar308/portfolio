@@ -16,28 +16,32 @@ a{
 
 .sidebarList{
     list-style: none;
-    padding: .5rem;
 }
 .sidebarListItem{
-    padding: 1.5rem .5rem;
+    padding: 1.5rem;
     margin-top: 1rem;
     cursor: pointer;
     display: flex;
     font-size: 1.8rem;
     align-items: center;
     border-radius: 1rem;
-    color: #fff;
+    color: #ddd;
 }
 .sidebar-icons{
     margin-right: 1.2rem;
     font-size: 2.4rem;
 }
 .active > *{
-    background-color: rgb(240, 240, 255);
+    background-color: var(--secondary-color-100);
     color: #000;
+    border-radius: 0;
+    border-right: 5px solid var(--secondary-color-100);
+    font-weight: 600;
 }
-.sidebarListItem.active,
+.active > *:hover{
+    color: #000 !important;
+}
 .sidebarListItem:hover{
-    background-color: rgb(240, 240, 255);
-    color: #000;
+    color: #fff;
+    border-radius: 0;
 }

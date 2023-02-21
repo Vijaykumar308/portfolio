@@ -10,21 +10,22 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    background-color: var(--black-bg);
+    background-color: var(--primary-color-800);
     color: var(--white);
     box-shadow: 0px 0px 3px rgba(65, 34, 43,.6);
     position: sticky;
     top: 0;
 }
 .button{
-    padding: 1rem 2rem;
+    padding: 1.3rem 2rem;
     font-size: 1.5rem;
     letter-spacing: 1px;
-    background: #74d0d4;
+    background: var(--secondary-color-100);
     border: none;
     border-radius: 5px;
     color: #110c0c;
     cursor: pointer;
+    text-transform: uppercase;
 }
 .nav{
     display: flex;
@@ -35,4 +36,8 @@
 .nav a {
     color: var(--white);
     font-size: 2.4rem;
+}
+.logo{
+    width: 16%;
+    text-align: center;
 }

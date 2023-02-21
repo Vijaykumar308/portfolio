@@ -8,10 +8,9 @@ import {DiGoogleAnalytics} from "react-icons/di"
 
 const Sidebar = () => {
     return (
-        <div className="sidebar">
-            <div className="sidebarWrapper">
+        <div className="sidebar-Container">
+            <div className="sidebarWrapper-df">
                 <div className="sidebarMenu">
-                    <h3 className="sidebarTitle">Dashboard</h3>
                     <ul className="sidebarList">
                         <NavLink to="/">
                             <li className="sidebarListItem">
