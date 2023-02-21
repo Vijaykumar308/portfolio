@@ -8,10 +8,15 @@
   --secondary-color-500: #2bd232;
   --secondary-color-100: #7bff80;
   --dark-theam-content: #373737;
+
+  --heading-color-lin-grad: linear-gradient(238deg, #3774b5, rgb(21 50 80));
 }
 /* background: linear-gradient(270deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%); */
 .container{
     display: flex;
+}
+.d-none{
+    display: none;
 }
 .sidebar{
     flex: 1; 

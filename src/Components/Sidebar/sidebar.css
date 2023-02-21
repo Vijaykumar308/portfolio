@@ -2,10 +2,6 @@ a{
     color: unset;
     text-decoration: none;
 }
-.sidebarWrapper{
-    padding: 2rem;
-    color: #555;
-}
 .sidebarMenu{
     margin-bottom: 1rem;
 }
@@ -13,7 +9,6 @@ a{
     font-size: 2.3rem;
     color: rgb(187, 186, 186);
 }
-
 .sidebarList{
     list-style: none;
 }
@@ -31,6 +26,9 @@ a{
     margin-right: 1.2rem;
     font-size: 2.4rem;
 }
+.sidebarListItemLabel{
+
+}
 .active > *{
     background-color: var(--secondary-color-100);
     color: #000;
@@ -44,4 +42,26 @@ a{
 .sidebarListItem:hover{
     color: #fff;
     border-radius: 0;
+}
+
+.expandCollapseWrapper{
+    position: fixed;
+    bottom: 4%;
+    left: 7px;
+}
+.expandCollapseIcon{
+    background: var(--primary-color-800);
+    border: none;
+    font-size: 23px;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+    outline: none;
+}
+.leftArrow{
+    transform: rotateZ(90deg);
+}
+.rightArrow{
+    transform: rotateZ(270deg);
+    margin-left: 1rem;
 }
