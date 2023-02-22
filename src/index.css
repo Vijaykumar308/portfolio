@@ -21,6 +21,7 @@ html{
 }
 
 a{
+  all: unset;
   text-decoration: none;
 }
 

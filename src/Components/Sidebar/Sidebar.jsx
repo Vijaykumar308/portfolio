@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import "./sidebar.css";
 import {AiFillHome} from "react-icons/ai";
 import {FcExpand} from "react-icons/fc";
@@ -14,7 +14,7 @@ const Sidebar = () => {
     }
     
     return (
-        <div className="sidebar-Container">
+        <div className={`sidebar ${!isCollapsed ? "collapsed" : ""}`}>
             <div className="sidebarWrapper">
                 <div className="sidebarMenu">
                     <ul className="sidebarList">

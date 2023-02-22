@@ -15,9 +15,7 @@ function App() {
     <div className="App">
       <Topbar />
       <div className='container'>
-        <div className="sidebar">
           <Sidebar />  
-        </div>
         <div className='contant'>
           <Routes>
             <Route path='/' element={<Home />} />

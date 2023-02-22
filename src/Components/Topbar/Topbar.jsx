@@ -7,7 +7,7 @@ const Topbar = () => {
         <div className='topbar'>
             <div className='wrapper'>
                 <div className='logo'>
-                    <h1>&lt;Vijay Kumar/&gt;</h1>
+                    <h1 className='logo-title'>&lt; Vijay Kumar /&gt;</h1>
                 </div>  
                 <div className='fgd'>
                     <a href='https://www.instagram.com/mr.vijay.kumar308/' target={"_blank"} rel="noreferrer">

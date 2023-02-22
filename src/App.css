@@ -11,6 +11,9 @@
 
   --heading-color-lin-grad: linear-gradient(238deg, #3774b5, rgb(21 50 80));
 }
+body{
+    font-family: 'Rubik', sans-serif;
+}
 /* background: linear-gradient(270deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%); */
 .container{
     display: flex;
@@ -18,14 +21,7 @@
 .d-none{
     display: none;
 }
-.sidebar{
-    flex: 1; 
-    height: calc(100vh - 60px);
-    background-color: rgb(251, 251, 255);
-    background-color: #15283c;
-    position: sticky;
-    top: 60px;
-}
+
 .contant{
     flex: 4;
     background-color: var(--light-grey);

@@ -12,7 +12,8 @@
     padding: 2rem;
     background-color: var(--primary-color-800);
     color: var(--white);
-    box-shadow: 0px 0px 3px rgba(65, 34, 43,.6);
+    border-bottom: 1px solid #fff;
+    box-shadow: 0px 0px 3px rgba(254, 66, 119, 0.6);
     position: sticky;
     top: 0;
 }
@@ -40,4 +41,10 @@
 .logo{
     width: 16%;
     text-align: center;
+}
+.logo-title{
+    letter-spacing: 1px;
+    font-size: 29px;
+    font-weight: 500;
+    text-shadow: 2px 2px 3px firebrick;
 }
