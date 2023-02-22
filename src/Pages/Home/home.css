@@ -1,0 +1,71 @@
+.profileSection{
+    min-height: 25vh;
+    background-color: #c2c1c1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    /* background-image: url("../../Images/Linkdin-handler.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+}
+.profileContainer{
+    display: flex;
+    top: 71%;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+.profileContant{
+    display: flex;
+    align-items: center;
+    width: 38%;
+    justify-content: space-between;
+}
+.name{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 4rem;
+}
+.profileDetials > p{
+    color: #666;
+    font-size: 14px;
+    margin-left: 7px;
+    margin-top: 12px;
+    letter-spacing: .4px;
+}
+.profileImage{
+    width: 16rem;
+}
+.profileImage img{
+    width: 100%;
+    border-radius: 100%;
+}
+.profileRightSide{
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+.verifiedBadge{
+    font-size: 1.8rem;
+    color: #3594ff;
+}
+.btn{
+    padding: 13px 26px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    transition: .4s all;
+}
+.ResumeDownload{
+    /* background-color: var(--secondary-color-100); */
+    background-color: #000;
+    color: #fff;
+}
+.linkedInButton {
+    border: 1px solid var(--text-color);
+}

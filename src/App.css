@@ -5,9 +5,10 @@
   --color-background: hsl(210deg, 30%, 8%);
   --light-grey: #f8f8f8;
   --primary-color-800: #15283c;
-  --secondary-color-500: #2bd232;
+  --secondary-color-500: #39e241;
   --secondary-color-100: #7bff80;
   --dark-theam-content: #373737;
+  --text-color: #666;
 
   --heading-color-lin-grad: linear-gradient(238deg, #3774b5, rgb(21 50 80));
 }
@@ -23,7 +24,7 @@ body{
 }
 
 .contant{
-    flex: 4;
+    flex: 5;
     background-color: var(--light-grey);
 }
 ::selection{
