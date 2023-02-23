@@ -28,3 +28,24 @@ a{
 li{
   list-style: none;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: .8rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--primary-color-800); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 1.5rem;
+  background: var(--secondary-color-100); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
