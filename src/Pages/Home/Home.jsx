@@ -48,7 +48,7 @@ export const Home = () => {
               </NavLink>
           </div>
 
-          <div className="skills">
+          <div className="skillsSection">
             <div className="skills">
               <h4>Skills</h4>
               <span className="skills-design">HTML</span>
@@ -58,17 +58,17 @@ export const Home = () => {
             </div>
 
             <div className="location">  
-              <h4>Location</h4>
+              <h5>Location</h5>
               <span>India</span>
             </div>
 
             <div>   
-              <h4>Mobile no.</h4>
+              <h5>Mobile no.</h5>
               <span>+91 8054975142</span>
             </div>
 
             <div>
-              <h4>Email</h4>
+              <h5>Email</h5>
               <span>jwvijaykumar@gmail.com</span>
             </div>
             
