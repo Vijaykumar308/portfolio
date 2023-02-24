@@ -30,7 +30,7 @@ body{
 
 .contant{
     flex: 5;
-    background-color: var(--dark-mode);
+    background-color: var(--light-mode);
 }
 ::selection{
     background-color: var(--secondary-color-100);

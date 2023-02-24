@@ -28,15 +28,11 @@
     cursor: pointer;
     text-transform: uppercase;
 }
-.nav{
-    display: flex;
-    width: 10%;
-    font-size: 2rem;
-    justify-content: space-evenly;
-}
 .nav a {
     color: var(--white);
     font-size: 2.4rem;
+    margin-left: 3rem;
+    cursor: pointer;
 }
 .logo{
     width: 16%;

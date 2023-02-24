@@ -6,13 +6,9 @@
 .profileSection{
     min-height: 20vh;
     background: var(--heading-color-lin-grad);
-    margin-inline: -6.4rem;
 }
 .profileContainer{
     display: flex;
-    /* top: 71%; */
-    /* position: absolute; */
-    /* width: 95%; */
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -185,7 +181,7 @@
 /* ==================== Technologies =========================== */
 .technologies{
     /* background-color: rgb(236, 236, 236); */
-    padding: 8rem 0;
+    margin: 10rem 0 3rem 0;
 }
 .technologies > h1{
     font-size: 5rem;
@@ -195,10 +191,10 @@
 .technologies > p{
     padding: 2rem 0px;
     font-size: 18px;
-    width: 57%;
     line-height: 34px;
     letter-spacing: 1px;
     color: #666;
+    /* width: 57%; */
 }
 .flex {
     display: flex;
@@ -232,7 +228,6 @@
     /* width: 163px; */
     line-height: 2.7rem;
     /* background: pink; */
-    /* -webkit-line-clamp: 2; */
 }
 @media (max-width:960px) {
     .homePageAbout{

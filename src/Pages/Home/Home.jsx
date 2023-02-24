@@ -52,16 +52,17 @@ export const Home = () => {
 
           <div className="skillsSection">
             <div className="skills">
-              <h4>Skills</h4>
+              <h4>Tech Skills</h4>
+              <span className="skills-design">PHP</span>
+              <span className="skills-design">React</span>
+              <span className="skills-design">Javascript</span>
               <span className="skills-design">HTML</span>
               <span className="skills-design">CSS</span>
-              <span className="skills-design">Javascript</span>
-              <span className="skills-design">PHP</span>
             </div>
 
             <div className="location">  
               <h5>Location</h5>
-              <span>India</span>
+              <span>Kushinager (Uttar Pardesh), India</span>
             </div>
 
             <div>   
