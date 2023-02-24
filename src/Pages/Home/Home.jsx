@@ -1,6 +1,8 @@
 import "./home.css";
 import profilePic from "../../Images/profile_pic.jpg";
 import { MdVerified } from "react-icons/md";
+import {FaReact, FaServer,FaDatabase} from "react-icons/fa";
+import {BiServer} from "react-icons/bi";
 import { NavLink } from "react-router-dom";
 
 export const Home = () => {
@@ -74,6 +76,30 @@ export const Home = () => {
             
           </div>
         </section>
+
+        <div className="technologies">
+          <h1>Technologies</h1>
+          <p>I've worked with a range a technologies in the web development world. From Front-end To Back-end.</p>
+          <div className="flex">
+            <div className="item frontend">
+              <div className="tech-icon"><FaReact/></div>
+              <h3>Front-End</h3>
+              <span className="description">Experiece with HTML CSS, React.js</span>
+            </div>
+
+            <div className="item backend">
+            <div className="tech-icon"><BiServer/></div>
+              <h3>Back-End</h3>
+              <span className="description">Experiece with PHP & mySQL</span>
+            </div>
+
+            <div className="item tools">
+              <div className="tech-icon"><FaDatabase/></div>
+              <h3>Tools</h3>
+              <span className="description">Experiece with MySQL, Postgres.</span>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   )
