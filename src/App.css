@@ -1,15 +1,20 @@
+/**
+*  clr-bg
+*  clr-text
+*  
+*/
 :root{
   --black-bg: rgb(14,20,27);
   --white: #fff;
   --black: #000;
   --color-background: hsl(210deg, 30%, 8%);
-  --light-grey: #f8f8f8;
   --primary-color-800: #15283c;
   --secondary-color-500: #39e241;
   --secondary-color-100: #7bff80;
   --dark-theam-content: #373737;
   --text-color: #666;
-
+  --light-mode: #f8f8f8;
+  --dark-mode:  #0f1624;
   --heading-color-lin-grad: linear-gradient(238deg, #3774b5, rgb(21 50 80));
 }
 body{
@@ -25,7 +30,7 @@ body{
 
 .contant{
     flex: 5;
-    background-color: var(--light-grey);
+    background-color: var(--dark-mode);
 }
 ::selection{
     background-color: var(--secondary-color-100);
