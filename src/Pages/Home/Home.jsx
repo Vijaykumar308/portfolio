@@ -4,6 +4,7 @@ import { MdVerified } from "react-icons/md";
 import {FaReact, FaServer,FaDatabase} from "react-icons/fa";
 import {BiServer} from "react-icons/bi";
 import { NavLink } from "react-router-dom";
+import Footer from "../../Components/Footer/Footer";
 
 export const Home = () => {
   return (
@@ -101,6 +102,7 @@ export const Home = () => {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
     </>
   )
