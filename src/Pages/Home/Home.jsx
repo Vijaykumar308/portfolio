@@ -9,8 +9,8 @@ import Footer from "../../Components/Footer/Footer";
 export const Home = () => {
   return (
     <>
+      <div className='profileSection'></div>
       <div className='homePage'>
-        <div className='profileSection'></div>
         <div className='profileContainer'>
           <div className='profileContant'>
             <div className='profileImage'>
@@ -97,7 +97,7 @@ export const Home = () => {
 
             <div className="item tools">
               <div className="tech-icon"><FaDatabase/></div>
-              <h3>Tools</h3>
+              <h3>Database</h3>
               <span className="description">Experiece with MySQL, Postgres.</span>
             </div>
           </div>
