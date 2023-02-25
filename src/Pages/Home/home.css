@@ -234,3 +234,22 @@
         grid-template-columns: 1fr;
     }
 }
+@media (max-width:586px) {
+    .name{
+        margin-top: 1rem;
+    }
+    .profileDetials {
+        margin-left: 0rem;
+    }
+}
+@media (max-width:400px) {
+    .homePageAbout{
+        grid-template-columns: 1fr;
+    }
+    .name{
+        margin-top: 1rem;
+    }
+    .profileDetials {
+        margin-left: 0rem;
+    }
+}
