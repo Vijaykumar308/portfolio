@@ -44,3 +44,28 @@ main{
     width: 100%;
     height: 100%;
 }
+
+.aboutMeSection{
+    width: 100%;
+    background-color: var(--primary-color-800);
+    padding: 5rem 12rem;
+    color: #fff;
+}
+.aboutMeSection h2{
+    margin-bottom: 4rem;
+    font-size: 2.7rem;
+    font-weight: 300;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-container h3{
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
