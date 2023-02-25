@@ -1,15 +1,27 @@
 .heading{
-    box-shadow: 0 2px 0 rgb(0 0 0 / 10%);
-    font-size: 35px;
+    box-shadow: 0 .2rem 0 rgb(0 0 0 / 10%);
+    font-size: 3.5rem;
     font-weight: 500;
-    padding: 25px 35px 22px 38px;
-    margin-bottom: 30px;
-    position: sticky;
-    top: 60px;
+    padding: 2.5rem 3.5rem 2.2rem 3.8rem;
+    margin-bottom: 3rem;
+    /* position: sticky;
+    top: 6rem; */
     display: flex;
     letter-spacing: 1.6px;
     background: var(--heading-color-lin-grad);
     color: #fff;
     align-items: center;
     min-height: 20vh;
+}
+
+@media (max-width: 960px) {
+    .heading{
+        min-height: 10vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .heading{
+        min-height: 5vh;
+    }
 }
