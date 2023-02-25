@@ -97,13 +97,13 @@ export const Home = () => {
 
             <div className="item tools">
               <div className="tech-icon"><FaDatabase/></div>
-              <h3>Tools</h3>
+              <h3>Database</h3>
               <span className="description">Experiece with MySQL, Postgres.</span>
             </div>
           </div>
         </div>
-        <Footer/>
       </div>
+        <Footer/>
     </>
   )
 }

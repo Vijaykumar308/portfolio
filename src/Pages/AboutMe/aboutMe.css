@@ -1,0 +1,71 @@
+.aboutMe{
+    width: 90%;
+    margin: auto;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 3rem 0rem;
+}
+.contantAboutMe{
+    width: 50%;
+    /* padding: 0rem 0rem; */
+}
+.knowMeMore{
+    font-size: 43px;
+    font-weight: 500;
+}
+.contantAboutMe hr{
+    margin-top: 20px;
+    width: 65%;
+}
+.aboutMeHeading{
+    font-size: 26px;
+    margin: 3rem 0rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.aboutMePara{
+    font-size: 14px;
+    line-height: 34px;
+    margin-bottom: 14px;
+    color: #666;
+}
+.imageContainer{
+    width: 30%;
+    height: 45vh;
+    box-shadow: 8px 8px 0px 0px var(--secondary-color-100);
+    object-fit: fill;
+    /* margin: 3rem 0rem; */
+    border: 2px solid var(--white);
+}
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.aboutMeSection{
+    width: 100%;
+    background-color: var(--primary-color-800);
+    padding: 5rem 12rem;
+    color: #fff;
+}
+.aboutMeSection h2{
+    margin-bottom: 4rem;
+    font-size: 2.7rem;
+    font-weight: 300;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-container h3{
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
