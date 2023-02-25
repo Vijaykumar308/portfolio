@@ -9,8 +9,8 @@ import Footer from "../../Components/Footer/Footer";
 export const Home = () => {
   return (
     <>
+      <div className='profileSection'></div>
       <div className='homePage'>
-        <div className='profileSection'></div>
         <div className='profileContainer'>
           <div className='profileContant'>
             <div className='profileImage'>
