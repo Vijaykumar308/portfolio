@@ -29,13 +29,6 @@ function mobileNav() {
             <NavLink to="/projects">
                 <img src={projectIcon}  alt="sdf" className="menuIcons"/>
             </NavLink>
-            {/* <HomeIcon /> */}
-            {/* <HomeIcon /> */}
-            {/* <i className="fa-brands fa-linkedin"></i> */}
-            {/* <i className="fa-solid fa-house"></i> */}
-            {/* <FcHome /> */}
-            {/* <i className="fa-brands fa-github"></i> */}
-            {/* <i className="fa-solid fa-camera"></i> */}
         </div>
     </div>
   )
