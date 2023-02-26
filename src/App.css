@@ -35,7 +35,17 @@ body{
 ::selection{
     background-color: var(--secondary-color-100);
 }
-
+/*===============mobile navbar design============== */
+@media (max-width:516px) {
+    .sidebar{
+        display: none;
+    }
+}
+@media (min-width:516px) {
+    .mobileNav{
+        display: none;
+    }
+}
 @media (max-width:960px) {
     html{
         font-size: 58%;

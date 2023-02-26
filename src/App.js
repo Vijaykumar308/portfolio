@@ -3,6 +3,7 @@ import './App.css';
 
 import Topbar from "./Components/Topbar/Topbar";
 import Sidebar from './Components/Sidebar/Sidebar';
+import MobileNav from "./Components/MobileNavbar/MobileNav"
 import { Home } from "./Pages/Home/Home";
 import { AboutMe } from "./Pages/AboutMe/AboutMe";
 import WorkExperince from "./Pages/WorkExperince/WorkExperince";
@@ -14,8 +15,9 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <Topbar />
+      <MobileNav/> 
       <div className='container'>
-          <Sidebar />  
+          <Sidebar /> 
         <div className='contant'>
           <Routes>
             <Route path='/' element={<Home />} />
