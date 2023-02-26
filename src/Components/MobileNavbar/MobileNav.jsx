@@ -13,11 +13,12 @@ function mobileNav() {
     <div className='mobileNav sidebarmobilenav'>
         <div className="sidebar-container">
             {/* <HomeIcon /> */}
-            <NavLink to="/skills">
-                <img src={SkillsIcon}  alt="sdf" className="menuIcons"/>
-            </NavLink>
             <NavLink to="/work-experince">
                 <img src={WorkExperience}  alt="sdf" className="menuIcons"/>
+            </NavLink>
+            
+            <NavLink to="/skills">
+                <img src={SkillsIcon}  alt="sdf" className="menuIcons"/>
             </NavLink>
             <NavLink to="/">
                 <img src={HomeIcon}  alt="sdf" className="menuIcons"/>
