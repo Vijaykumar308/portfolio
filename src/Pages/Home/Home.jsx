@@ -63,7 +63,7 @@ export const Home = () => {
 
             <div className="location">  
               <h5>Location</h5>
-              <span>Kushinager (Uttar Pardesh), India</span>
+              <span>Amritsar (Punjab), India</span>
             </div>
 
             <div>   
