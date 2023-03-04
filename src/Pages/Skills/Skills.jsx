@@ -3,16 +3,24 @@ import Heading from '../../Components/Heading/Heading';
 
 import css from '../../FlatIcons/css.png';
 import js from '../../FlatIcons/js.png';
-import php from '../../FlatIcons/php.png';
 import react from '../../FlatIcons/react.png';
+
+import php from '../../FlatIcons/php.png';
 import sql from '../../FlatIcons/sql.png';
+
+import git from '../../FlatIcons/git.png';
+import github from '../../FlatIcons/github1.png';
+import gitlab from '../../FlatIcons/gitlab.png';
+
+
+import Footer from "../../Components/Footer/Footer";
 
 function Skills() {
   return (
     <>
-    <Heading title="Skills" />
-    <div className='skills'>
-      {/* <div className="SkillsContainer">
+      <Heading title="Skills" />
+      <div className='skills'>
+        {/* <div className="SkillsContainer">
         <div className="skillsItem">
           <img src={react} alt="alt"/>
         </div>
@@ -29,7 +37,7 @@ function Skills() {
           <img src={sql} alt="alt"/>
         </div>
       </div> */}
-      <div className="mySkillsGridContainer">
+        <div className="mySkillsGridContainer">
           <div className="gridItem gridItemContent">
             <h2>Front End</h2>
             <ul>
@@ -39,13 +47,58 @@ function Skills() {
               <li className="listItem">Bootstrap 4 for rapid UI development</li>
             </ul>
           </div>
-          <div className="gridItem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos eius assumenda ad ea voluptatibus odit, repellat exercitationem omnis eum maxime similique ratione consequuntur ipsam nihil facere error. Expedita consectetur tenetur, doloribus facere tempore error fugit sit animi recusandae. Corporis, itaque beatae. Voluptate voluptas nisi quae accusamus earum? Quas minus non distinctio harum deserunt? Quaerat.</div>
-          <div className="gridItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iure a vero reprehenderit voluptatem unde ratione error! Itaque ullam nobis hic? Dolor veritatis qui sed expedita! Eveniet rerum quibusdam praesentium, non voluptas accusamus eaque.</div>
-          <div className="gridItem gridItemContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsa, perspiciatis quia distinctio beatae reiciendis eligendi cupiditate, optio doloribus ut nihil, veritatis rem? Neque, voluptatem officia in cum expedita repellat unde velit veniam fuga.</div>
-          <div className="gridItem gridItemContent"></div>
-          <div className="gridItem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatum nulla, animi praesentium quod, deleniti neque inventore nobis vel, quaerat explicabo veritatis! Perspiciatis quidem quis asperiores, quia amet quam tempore quo delectus eos voluptatum excepturi eum aliquid harum doloribus necessitatibus veniam. Quia, soluta.</div>
+          <div className="gridItem gridItemImage order-1">
+            <div className="imgbox">
+              <img src={react} alt="" />
+            </div>
+            <div className="imgbox">
+              <img src={js} alt="" />
+            </div>
+            <div className="imgbox">
+              <img src={css} alt="" />
+            </div>
+          </div>
+          <div className="gridItem gridItemImage order-2">
+            <div className="imgbox">
+              <img src={php} alt="" />
+            </div>
+            <div className="imgbox">
+              <img src={sql} alt="" />
+            </div>
+            <div className="imgbox">
+              <img src={css} alt="" />
+            </div>
+          </div>
+          <div className="gridItem gridItemContent">
+            <h2>Back End</h2>
+            <ul>
+              <li className="listItem">Rest APIs with PHP</li>
+              <li className="listItem">NPM for package management and scripting. </li>
+              <li className="listItem">MYSQL for Database Storage</li>
+              <li className="listItem">SQL for data base queries. </li>
+            </ul></div>
+          <div className="gridItem gridItemContent">
+            <h2>Tools</h2>
+            <ul>
+              <li className="listItem">Git for version control and feature branching</li>
+              <li className="listItem">Github  & Gitlab to collabration and open souce controbutions</li>
+              <li className="listItem">Vscode & Sublime text Editor </li>
+            </ul>
+          </div>
+          <div className="gridItem gridItemImage order-3">
+            <div className="imgbox">
+              <img src={git} alt="" />
+            </div>
+            <div className="imgbox">
+              <img src={github} alt="" />
+            </div>
+            <div className="imgbox">
+              <img src={gitlab} alt="" />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+      <Footer />
     </>
   )
 }
