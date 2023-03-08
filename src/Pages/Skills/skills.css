@@ -49,13 +49,13 @@
     margin-bottom: 20px;
 }
 .gridItemImage{
-    background: rebeccapurple;
+    /* background: rebeccapurple; */
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .imgbox{
-    width: 18%;
+    width: 11%;
 }
 .imgbox > img{
     width: 100%;
@@ -81,6 +81,18 @@
         order: 2;
     }
     .order-3{
-        order: 4;
+        order: 1;
     }
+    /* .mySkillsGridContainer {
+        grid-template-columns: 1fr;
+    }
+    .order-1{
+        order: -1;
+    }
+    .order-2{
+        order: 2;
+    }
+    .order-3{
+        order: 4;
+    } */
 }
