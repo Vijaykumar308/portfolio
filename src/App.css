@@ -17,6 +17,16 @@
   --dark-mode:  #0f1624;
   --heading-color-lin-grad: linear-gradient(238deg, #3774b5, rgb(21 50 80));
 }
+.dark-mode{
+    --heading-color: #fff;
+    --text-color: #fff;
+    --bg-color: #0f1624;
+}
+.light-mode {
+    --heading-color: #000;
+    --text-color: #000;
+    --bg-color: #f8f8f8;
+}
 body{
     font-family: 'Rubik', sans-serif;
 }
@@ -30,7 +40,7 @@ body{
 
 .contant{
     flex: 5;
-    background-color: var(--light-mode);
+    background-color: var(--bg-color);
 }
 ::selection{
     background-color: var(--secondary-color-100);
