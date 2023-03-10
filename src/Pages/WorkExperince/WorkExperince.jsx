@@ -27,17 +27,6 @@ function WorkExperince() {
 
           <div className="workExperience">
           <div className="col">
-            <span className="year"> Nov,2022 - April, 2023</span>
-            <h1 className="expName">Intership</h1>
-            <div className="companyAndDuration">
-              <span className="comapnyName">Kochar Tech</span>
-              <span>5 Months</span>
-            </div>
-            <p className="jobDescp">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime dolore soluta facilis deleniti fugiat alias libero consequuntur, nostrum, officiis provident quas tempora sunt molestias rem quis excepturi hic deserunt minima! Non, eos rem?
-            </p>
-          </div>  
-          <div className="col">
           <span className="year"> May,2022 - Aug, 2023</span>
             <h1 className="expName">Jr. Engineer </h1>
             <div className="companyAndDuration">
@@ -48,6 +37,17 @@ function WorkExperince() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime dolore soluta facilis deleniti fugiat alias libero consequuntur, nostrum, officiis provident quas tempora sunt molestias rem quis excepturi hic deserunt minima! Non, eos rem?
             </p>
           </div>
+          <div className="col">
+            <span className="year"> Nov,2022 - April, 2023</span>
+            <h1 className="expName">Intership</h1>
+            <div className="companyAndDuration">
+              <span className="comapnyName">Kochar Tech</span>
+              <span>5 Months</span>
+            </div>
+            <p className="jobDescp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime dolore soluta facilis deleniti fugiat alias libero consequuntur, nostrum, officiis provident quas tempora sunt molestias rem quis excepturi hic deserunt minima! Non, eos rem?
+            </p>
+          </div>  
           </div>
         </section>
       </div>
