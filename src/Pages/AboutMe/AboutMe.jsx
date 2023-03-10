@@ -34,8 +34,8 @@ export const AboutMe = () => {
             <h3><BiPhone className="aboutMeIcon"/> +91 8054975142</h3>
         </div>
       </div> */}
-      <Footer/>
       </div>
+      <Footer/>
     </>
   )
 }

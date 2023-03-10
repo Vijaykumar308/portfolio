@@ -1,4 +1,5 @@
 import "./projects.css";
+import Footer from "../../Components/Footer/Footer";
 import Heading from '../../Components/Heading/Heading';
 
 import ProjectComp from '../../Components/ProjectComp/projectComp';
@@ -11,6 +12,7 @@ function Projects() {
         <ProjectComp/>
         <ProjectComp/>
       </div>
+      <Footer/>
     </>
   )
 }
