@@ -1,18 +1,26 @@
 import "./projectComp.css";
-import crm from "../../Images/crm.png";
-function projectComp({ flexDirection }) {
+
+function projectComp({ img, heading, projectDescription, liveDemoLink,viewCodeLink,isButtonsDisable }) {
   return (
     <div className="containerFlex">
       <div className="item1">
         <div className="imgWrapper">
-          <img src={crm} alt="img" />
+          <img src={img} alt="img" />
         </div>
       </div>
       <div className="item2">
-        <h2 className="projectNameHeading">Heading of the project</h2>
-        <p className="projectDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam consequuntur blanditiis aliquam magnam qui delectus facere quasi a iure? Nisi omnis, eveniet, ullam provident dolorem nihil delectus cum quibusdam eum nemo recusandae est iusto?</p>
-        <button className="btn liveDemoBtn">Live Demo</button>
-        <button className="btn viewCodeBtn">View Code</button>
+        <h2 className="projectNameHeading">{heading}</h2>
+        <p className="projectDescription">{projectDescription}</p>
+        { !isButtonsDisable && 
+        <>
+          <a href={liveDemoLink} target="_blank">
+          <button className="btn liveDemoBtn">Live Demo</button>
+          </a>
+          <a href={viewCodeLink} target="_blank">
+            <button className="btn viewCodeBtn">View Code</button>
+          </a>
+        </>
+        }
       </div>
     </div>
   )

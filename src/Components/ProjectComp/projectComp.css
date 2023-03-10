@@ -13,7 +13,7 @@
     flex: 4;
 }
 .imgWrapper{
-    aspect-ratio: 4/1;
+    /* aspect-ratio: 4/1; */
     width: 100%;
 }
 .item1 img {
