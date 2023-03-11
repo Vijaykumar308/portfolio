@@ -42,6 +42,8 @@
     /* text-shadow: 2px 2px 3px firebrick; */
     text-transform: uppercase;
 }
+
+/* Hamburger Menu Design and Functionality */
 .hamburgerMenu {
     display: none;
 }
@@ -49,11 +51,34 @@
     font-size: 2.6rem;
     border-radius: 1.2rem;
 }
+
+.btn.btn-success-100{
+    background-color: var(--secondary-color-100);
+}
+
+/* inside mobileViewSlider */
+.iconAndLabel {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.iconAndLabel > :first-child{
+    margin-right: 1.4rem;
+}
+
+.closedIcon {
+    font-size: 3rem;
+}
+
 input[type='checkbox']:checked ~ .mobileViewSlider {
     transform: translateX(0px); 
     opacity: 1; 
     display: none;
 }
+
+/* Default Hide; shows when clicked on Hamburger menu*/
 .mobileViewSlider{
     background: #15283c;
     width: 50%;
@@ -66,55 +91,41 @@ input[type='checkbox']:checked ~ .mobileViewSlider {
     opacity: 1;
 
 }
-/* input[type='checkbox']:focus{
-    color: red;
-}
-input[type='checkbox']:not(:focus){
-    color: blue;
-} */
+/* Content Inside mobileViewSlider  */
 .mobileViewSlider > ul{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     height: 60%;
-    /* background: rebeccapurple; */
     font-size: 2.3rem;
     letter-spacing: 1px;
 }
-.btn.btn-success-100{
-    background-color: var(--secondary-color-100);
-}
-.iconAndLabel {
-    width: 60%;
-    align-items: center;
-    display: flex;
-    align-items: center;
-}
-.iconAndLabel > :first-child{
-    margin-right: 1.4rem;
-}
-.closedIcon {
-    font-size: 3rem;
-}
+
+/* =========== */
 @media (max-width: 516px) {
+    .hamburgerMenu{
+        display: block;
+        transition: 4s all;
+    }
 
     input[type='checkbox']:checked ~ .mobileViewSlider {
         transform: translateX(0px); 
         opacity: 1;
         display: block; 
     }
-    .hamburgerMenu{
-        display: block;
-        transition: 4s all;
-    }
-    .nav{
-        display: none;
-    }
+
     .mobileViewSlider{
         transform: translateX(500px);
     }
+
+    /* don't remove */
+    .nav{
+        display: none;
+    }
 }
+
+/* increaing width; so that it'll be take required space */
 @media (max-width: 350px) {
     .mobileViewSlider{
         width: 70%;
