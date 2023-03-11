@@ -1,6 +1,7 @@
 import React from 'react';
 import "./topbar.css";
 import {AiFillInstagram, AiFillGithub, AiFillLinkedin} from "react-icons/ai";
+import {GiHamburgerMenu} from "react-icons/gi";
 const Topbar = () => {
   return (
     <>
@@ -9,11 +10,15 @@ const Topbar = () => {
                 <div className='logo'>
                     <h1 className='logo-title'> vijay kumar </h1>
                 </div>  
-                {/* <div className='fgd'>
-                    <a href='https://www.instagram.com/mr.vijay.kumar308/' target={"_blank"} rel="noreferrer">
-                    <button className='button'>Download cv</button>
-                    </a>
-                </div>  */}
+                <input type="checkbox"  name="" id="hamburgerMenu" />
+                <label htmlFor="hamburgerMenu">
+                <div className="hamburgerMenu">
+                    <GiHamburgerMenu className='hamburgerMenuIcon'/>
+                </div>
+                </label>
+
+                <div className="mobileViewSlider">
+                </div>    
 
                 <div className='nav'>
                     <a href='https://www.instagram.com/mr.vijay.kumar308/' target={"_blank"} rel="noreferrer">
@@ -27,7 +32,6 @@ const Topbar = () => {
                     <a href='https://www.instagram.com/mr.vijay.kumar308/' target={"_blank"} rel="noreferrer">
                         <AiFillInstagram />
                     </a>
-                    
                 </div>
             </div>
         </div>
