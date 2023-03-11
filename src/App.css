@@ -3,6 +3,9 @@
 *  clr-text
 *  
 */
+body{
+    overflow-x: hidden;
+}
 :root{
   --black-bg: rgb(14,20,27);
   --white: #fff;
