@@ -20,5 +20,6 @@
     padding: 3rem;
     position: fixed;
     background-color: #15283c;
+    border-top: 1px solid var(--black-and-white-color);
     bottom: 0;
 }

@@ -29,8 +29,8 @@
     margin-left: 2rem;
 }
 .profileDetials > p{
-    color: #666;
-    font-size: 1.4rem;
+    color: var(--para-color);
+    font-size: 1.6rem;
     margin-left: .7rem;
     margin-top: 1.2rem;
     letter-spacing: .4px;
@@ -102,11 +102,11 @@
 .experience h2{
     font-size: 2.3rem;
     font-weight: 500;
-    color: var(--heading-color);
+    color: var(--black-and-white-color);
     /* padding: 1rem 0rem; */
 }
 .experience p{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--para-color);
     padding: 1rem 0;
     text-transform: capitalize;
@@ -120,7 +120,7 @@
     font-size: 2rem;
     font-weight: 500;
     letter-spacing: .1rem;
-    color: var(--heading-color);
+    color: var(--black-and-white-color);
 }
 .experience .para{
     line-height: 3rem;
@@ -129,7 +129,7 @@
 }
 .readmore{
     border: .1rem solid var(--secondary-color-500);
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     color: var(--black-and-white-color);
 }
 .readmore:hover{
@@ -182,7 +182,7 @@
 }
 .skillsSection span{
     font-size: 1.7rem;
-    color: #666;
+    color: var(--para-color);
 }
 
 /* ==================== Technologies =========================== */
@@ -201,7 +201,7 @@
     font-size: 1.8rem;
     line-height: 3.4rem;
     letter-spacing: 1px;
-    color: #666;
+    color: var(--para-color);
     /* width: 57%; */
 }
 .flex {
@@ -237,8 +237,17 @@
     line-height: 2.7rem;
     /* background: pink; */
 }
+
 @media (max-width:960px) {
     .homePageAbout{
         grid-template-columns: 1fr;
+    }
+}
+@media (max-width:664px) {
+    .profileDetials{
+        margin-left: 1rem;
+    }
+    .name{
+        margin-top: 1rem;
     }
 }
