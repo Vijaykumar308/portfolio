@@ -34,7 +34,6 @@ function Projects() {
           isButtonsDisable = {true}
         />
       </div>
-      <Footer/>
     </>
   )
 }

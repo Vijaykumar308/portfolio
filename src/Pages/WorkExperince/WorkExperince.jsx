@@ -51,7 +51,6 @@ function WorkExperince() {
           </div>
         </section>
       </div>
-      <Footer/>
     </>
   )
 }

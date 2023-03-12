@@ -5,8 +5,8 @@
     margin-bottom: 4.4rem;
 }
 .item1{
-    background: purple;
-    padding: 2rem;
+    /* background: purple; */
+    /* padding: 2rem; */
     flex: 3;
 }
 .item2 {
@@ -28,10 +28,11 @@
     color: var(--black-and-white-color);
 }
 .projectDescription{
-    color: #666;
+    color: var(--para-color);
     padding: 2rem 0px;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     line-height: 2;
+    text-align: justify;
 }
 .liveDemoBtn{
     background: #255281;
