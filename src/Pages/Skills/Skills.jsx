@@ -7,6 +7,7 @@ import react from '../../FlatIcons/react.png';
 
 import php from '../../FlatIcons/php.png';
 import sql from '../../FlatIcons/sql.png';
+import nodejs from '../../FlatIcons/nodejs.png';
 
 import git from '../../FlatIcons/git.png';
 import github from '../../FlatIcons/github1.png';
@@ -66,7 +67,7 @@ function Skills() {
               <img src={sql} alt="" />
             </div>
             <div className="imgbox">
-              <img src={css} alt="" />
+              <img src={nodejs} alt="" />
             </div>
           </div>
           <div className="gridItem gridItemContent">

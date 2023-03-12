@@ -25,6 +25,7 @@
 .item2 .projectNameHeading{
     font-size: 3rem;
     font-weight: 500;
+    color: var(--black-and-white-color);
 }
 .projectDescription{
     color: #666;
@@ -38,8 +39,8 @@
     margin-right: 3rem;
 }
 .viewCodeBtn{
-    border: 1px solid black;
-    color: 000;
+    border: 1px solid var(--black-and-white-color);
+    color: var(--black-and-white-color);
 }
 
 @media (max-width:900px) {

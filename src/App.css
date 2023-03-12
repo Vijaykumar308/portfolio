@@ -21,14 +21,22 @@ body{
   --heading-color-lin-grad: linear-gradient(238deg, #3774b5, rgb(21 50 80));
 }
 .dark-mode{
-    --heading-color: #fff;
+    --heading-color: var(--secondary-color-100);
     --text-color: #fff;
-    --bg-color: #0f1624;
+    /* --bg-color: #0f1624; */
+    --bg-color: #1b273e;
+    --black-and-white-color: #fff;
+    --para-color: #ddd;
+    --selection-text-color: #fff;
+
 }
 .light-mode {
-    --heading-color: #000;
+    --heading-color: firebrick;
     --text-color: #000;
     --bg-color: #f8f8f8;
+    --black-and-white-color: #000;
+    --para-color: #111;
+    --selection-text-color: #fff;
 }
 body{
     font-family: 'Rubik', sans-serif;
@@ -46,7 +54,8 @@ body{
     background-color: var(--bg-color);
 }
 ::selection{
-    background-color: var(--secondary-color-100);
+    background-color: #1e4369;
+    color: var(--selection-text-color);
 }
 /*===============mobile navbar design============== */
 @media (max-width:516px) {
@@ -61,12 +70,12 @@ body{
 }
 @media (max-width:960px) {
     html{
-        font-size: 58%;
+        font-size: 60%;
     }
 }
 
 @media (max-width:400px) {
     html{
-        font-size: 50%;
+        font-size: 53%;
     }
 }
