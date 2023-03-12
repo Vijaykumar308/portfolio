@@ -17,6 +17,14 @@
     position: sticky;
     top: 0;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
+.theamIcon{
+    font-size: 2rem;
+    margin-left: 2rem;
+}
 .button{
     padding: 1.3rem 2rem;
     font-size: 1.5rem;

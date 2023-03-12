@@ -2,10 +2,21 @@ import React, { useState } from 'react';
 import "./topbar.css";
 import {AiFillInstagram, AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 import {GiHamburgerMenu} from "react-icons/gi";
+import {BsFillSunFill, BsFillMoonFill} from 'react-icons/bs';
 const Topbar = () => {
     let [isHamburger, setIsHamburger] = useState(true);
+    let [theam, setTheam] = useState("dark-mode");
+
+    function handleChangeTheam(){
+        let body = document.getElementsByTagName("body");
+        setTheam( () => {
+          return  theam === "dark-mode" ? "light-mode" : "dark-mode";
+        }
+        )
+        document.body.className = theam; 
+    }
+    
     function HandlerClick(){
-        //console.log(isHamburger);
         setIsHamburger(!isHamburger);
     }
   return (
@@ -14,6 +25,9 @@ const Topbar = () => {
             <div className='wrapper'>
                 <div className='logo'>
                     <h1 className='logo-title'> vijay kumar </h1>
+                    {
+                        theam === "dark-mode" ? <BsFillSunFill className='theamIcon' onClick={handleChangeTheam}/> : <BsFillMoonFill className='theamIcon' onClick={handleChangeTheam} />
+                    }    
                 </div>  
                 <label htmlFor="hamburgerMenu">
                 <input type="checkbox" hidden name="" id="hamburgerMenu" onClick={HandlerClick} />
