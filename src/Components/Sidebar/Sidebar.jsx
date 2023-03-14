@@ -2,8 +2,10 @@ import React, { useRef, useState } from 'react';
 import "./sidebar.css";
 import {AiFillHome} from "react-icons/ai";
 import {FcExpand} from "react-icons/fc";
-import {DiGoogleAnalytics} from "react-icons/di";
+// import {DiGoogleAnalytics} from "react-icons/di";
 import {FaGraduationCap, FaBriefcase} from 'react-icons/fa';
+import {SiPolymerproject, SiAboutdotme} from 'react-icons/si';
+
 import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
@@ -27,7 +29,7 @@ const Sidebar = () => {
 
                         <NavLink to="/about">
                             <li className="sidebarListItem">
-                                <DiGoogleAnalytics className="sidebar-icons" />
+                                <SiAboutdotme className="sidebar-icons" />
                                 <span className={`sidebarListItemLabel ${!isCollapsed ? 'd-none' : ""}`}>About Me</span>
                             </li>
                         </NavLink>
@@ -48,7 +50,7 @@ const Sidebar = () => {
 
                          <NavLink to="projects">
                          <li className="sidebarListItem">
-                                <AiFillHome className="sidebar-icons" />
+                                <SiPolymerproject className="sidebar-icons" />
                                 <span className={`sidebarListItemLabel ${!isCollapsed ? 'd-none' : ""}`}>Projects</span>
                             </li>
                         </NavLink>
