@@ -5,7 +5,9 @@ import {FaReact, FaServer,FaDatabase} from "react-icons/fa";
 import {BiServer} from "react-icons/bi";
 import { NavLink } from "react-router-dom";
 import Footer from "../../Components/Footer/Footer";
-
+import {HiLocationMarker} from 'react-icons/hi';
+import {ImMobile} from 'react-icons/im';
+import {AiOutlineMail} from 'react-icons/ai';
 export const Home = () => {
   return (
     <>
@@ -42,9 +44,9 @@ export const Home = () => {
             <p>I specialise in UX/UI design, backend technologies & overall web Devlopment</p>
             <hr />
             <h3>About me</h3>
-            <p className="para">I am an aspiring web developer with, having excellent problem solving skills. I am quite passionate about learning and being good at what I do.</p>
+            <p className="para">I am an aspiring web developer with, having 1+ year of industrial experience. I am quite passionate about learning & exploring the tech related stuff and Being Good At What I Do.</p>
             <p className="para">
-            I consistently demonstrate a can-do attitude and embrace tough challenges with energy and enthusiasm. I am always on the lookout for opportunities to collaborate on new ideas and technologies</p>
+            My name is <strong>VIJAY KUMAR</strong>. I have completed Bachelor of Computer Application from G.N.D.U Amritsar (Punjab). I'm always on the lookout for opportunities to collaborate on new ideas & tech related stuff.</p>
 
               <NavLink to="/about">
                 <button className="btn readmore"> Read More</button>
@@ -54,25 +56,31 @@ export const Home = () => {
           <div className="skillsSection">
             <div className="skills">
               <h4>Tech Skills</h4>
-              <span className="skills-design">PHP</span>
               <span className="skills-design">React</span>
               <span className="skills-design">Javascript</span>
+              <span className="skills-design">PHP</span>
+              <span className="skills-design">SQL</span>
               <span className="skills-design">HTML</span>
               <span className="skills-design">CSS</span>
+              <span className="skills-design">Git</span>
+              <span className="skills-design">Github</span>
             </div>
 
             <div className="location">  
               <h5>Location</h5>
+              <span><HiLocationMarker/></span>
               <span>Amritsar (Punjab), India</span>
             </div>
 
             <div>   
               <h5>Mobile no.</h5>
+              <span><ImMobile/></span>
               <span>+91 8054975142</span>
             </div>
 
             <div>
               <h5>Email</h5>
+              <span><AiOutlineMail/></span>
               <span>jwvijaykumar@gmail.com</span>
             </div>
             
