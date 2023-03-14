@@ -50,24 +50,24 @@ function Skills() {
           </div>
           <div className="gridItem gridItemImage order-1">
             <div className="imgbox">
-              <img src={react} alt="" />
+              <img src={react} alt="react-img" />
             </div>
             <div className="imgbox">
-              <img src={js} alt="" />
+              <img src={js} alt="js-img" />
             </div>
             <div className="imgbox">
-              <img src={css} alt="" />
+              <img src={css} alt="css-img" />
             </div>
           </div>
           <div className="gridItem gridItemImage order-2">
             <div className="imgbox">
-              <img src={php} alt="" />
+              <img src={php} alt="php-img" />
             </div>
             <div className="imgbox">
-              <img src={sql} alt="" />
+              <img src={sql} alt="sql-img" />
             </div>
             <div className="imgbox">
-              <img src={nodejs} alt="" />
+              <img src={nodejs} alt="nodejs-img" />
             </div>
           </div>
           <div className="gridItem gridItemContent">
@@ -88,13 +88,13 @@ function Skills() {
           </div>
           <div className="gridItem gridItemImage order-3">
             <div className="imgbox">
-              <img src={git} alt="" />
+              <img src={git} alt="git-img" />
             </div>
             <div className="imgbox">
-              <img src={github} alt="" />
+              <img src={github} alt="github-img" />
             </div>
             <div className="imgbox">
-              <img src={gitlab} alt="" />
+              <img src={gitlab} alt="gitlab-img" />
             </div>
           </div>
         </div>
