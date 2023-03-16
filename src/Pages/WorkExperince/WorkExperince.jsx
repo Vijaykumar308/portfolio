@@ -33,11 +33,11 @@ function WorkExperince() {
               <span>1+ Year</span>
             </div>
             <p className="jobDescp">
-              I have almost 1+ Year of Experience in kochar tech where I work as a full stack developer In LAMP Stack. I do work on a employee management project in which php's cakePHP framework as technologies and database used as postgres. I work under a senior software engineer where I've to develop the featues in the existing module or write the new modules as per the requirements.  
+              I have almost 1+ Year of Experience in kochar tech where I work as a full stack developer In LAMP Stack. I do work on a employee management project in which php's cakePHP framework is used as technologies and database used as postgres. I work under a senior software engineer where I've to develop the featues in the existing module or write the new modules as per the requirements.  
             </p>
             <p className="jobDescp">
-              A part from this, I also work upon CRM which is a open source platform. In this CRM, I've to develope the whole featurs and functionality of the CRM whoes requirements given by the clients. Since the CRM has a open source therefore, I've to fixed the issue and bugs of its as well. <br/>
-              The tech is used in this CRM is backbone Js & PHP & MySQL.
+              Apart from this, I also work upon CRM which is a open source platform. In this CRM, I've to develope the whole featurs and functionality of the CRM whoes requirements given by the client. Since the CRM has an open source therefore, I've to fixed the issue and bugs of its as well. <br/>
+              The tech is used in this CRM is backbone Js, PHP & MySQL.
             </p>
           </div>
           <div className="col">
