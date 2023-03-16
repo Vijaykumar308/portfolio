@@ -29,7 +29,7 @@
     bottom: 0;
 }
 
-.active::before{
+.sidebar-container .active::before{
     content: '';
     position: absolute;
     display: block;

@@ -8,7 +8,6 @@ const Topbar = () => {
     let [theam, setTheam] = useState("dark-mode");
 
     function handleChangeTheam(){
-        let body = document.getElementsByTagName("body");
         setTheam( () => {
           return  theam === "dark-mode" ? "light-mode" : "dark-mode";
         }
@@ -25,9 +24,11 @@ const Topbar = () => {
             <div className='wrapper'>
                 <div className='logo'>
                     <h1 className='logo-title'> vijay kumar </h1>
-                    {
-                        theam === "dark-mode" ? <BsFillSunFill className='theamIcon' onClick={handleChangeTheam}/> : <BsFillMoonFill className='theamIcon' onClick={handleChangeTheam} />
-                    }    
+                    <div className='wrapperTheamIcon'>
+                        {
+                            theam === "dark-mode" ? <BsFillSunFill onClick={handleChangeTheam}/> : <BsFillMoonFill onClick={handleChangeTheam} />
+                        }    
+                    </div>
                 </div>  
                 <label htmlFor="hamburgerMenu">
                 <input type="checkbox" hidden name="" id="hamburgerMenu" onClick={HandlerClick} />
@@ -52,7 +53,7 @@ const Topbar = () => {
                                 <i className="fa-brands fa-instagram"></i>
                                 <li className='instagram'><a href="https://instagram.com/mr.vijay.kumar308">Instagram</a></li>
                             </div>
-                            <a href="">
+                            <a href="download">
                                 <button className='btn btn-success-100'>Download CV</button>
                             </a>
                         </ul>

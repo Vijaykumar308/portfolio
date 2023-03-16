@@ -28,6 +28,8 @@ body{
     --black-and-white-color: #fff;
     --para-color: #ddd;
     --selection-text-color: #fff;
+    --thame-icon-bg: #455765;
+    --theam-icon-color: #fff;
 
 }
 .light-mode {
@@ -37,6 +39,8 @@ body{
     --black-and-white-color: #000;
     --para-color: #111;
     --selection-text-color: #fff;
+    --thame-icon-bg: #fff4d1;
+    --theam-icon-color:#f08363;
 }
 body{
     font-family: 'Rubik', sans-serif;

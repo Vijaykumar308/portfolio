@@ -1,7 +1,6 @@
 import "./workExperince.css";
 import Heading from '../../Components/Heading/Heading';
 import profileIcon from '../../FlatIcons/profileIcon.png';
-import Footer from "../../Components/Footer/Footer";
 
 function WorkExperince() {
   return (
@@ -15,7 +14,7 @@ function WorkExperince() {
           </div>
           <div className="carrerProfileContent">
             <p className="CarrerProfilePara">I'M a <em> Web Developer </em> with 1 years of professional experience in UI design and Overall Web Development, I'm currently living in Amritsar, Punjab.
-            I have done bachelor of Computer Application in Amritsar. Having a passion to create awesome website & carrier in web Developement.</p>
+            <br/>Having a passion to create awesome website & carrier in web Developement.</p>
           </div>
         </div>
 
@@ -34,7 +33,11 @@ function WorkExperince() {
               <span>1+ Year</span>
             </div>
             <p className="jobDescp">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime dolore soluta facilis deleniti fugiat alias libero consequuntur, nostrum, officiis provident quas tempora sunt molestias rem quis excepturi hic deserunt minima! Non, eos rem?
+              I have almost 1+ Year of Experience in kochar tech where I work as a full stack developer In LAMP Stack. I do work on a employee management project in which php's cakePHP framework as technologies and database used as postgres. I work under a senior software engineer where I've to develop the featues in the existing module or write the new modules as per the requirements.  
+            </p>
+            <p className="jobDescp">
+              A part from this, I also work upon CRM which is a open source platform. In this CRM, I've to develope the whole featurs and functionality of the CRM whoes requirements given by the clients. Since the CRM has a open source therefore, I've to fixed the issue and bugs of its as well. <br/>
+              The tech is used in this CRM is backbone Js & PHP & MySQL.
             </p>
           </div>
           <div className="col">
@@ -45,7 +48,10 @@ function WorkExperince() {
               <span>5 Months</span>
             </div>
             <p className="jobDescp">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime dolore soluta facilis deleniti fugiat alias libero consequuntur, nostrum, officiis provident quas tempora sunt molestias rem quis excepturi hic deserunt minima! Non, eos rem?
+              Bassically, it was a 6 Months of Intership which I got promoted to on job just after 5 months of my learning into this Intership and got an offer to continue as a full time employee with kochar tech.
+            </p>
+            <p className="jobDescp">
+              Here, I learned about PHP and postgres also I got introduced by some new tools such as jira, CRM, Notations, etc which is helpfull to determine our work process.
             </p>
           </div>  
           </div>

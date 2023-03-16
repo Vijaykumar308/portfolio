@@ -21,10 +21,19 @@
     display: flex;
     align-items: center;
 }
-.theamIcon{
-    font-size: 2rem;
+.wrapperTheamIcon{
+    transition: .5s all;
+    background: var(--thame-icon-bg);
+    font-size: 17px;
     margin-left: 2rem;
+    width: 35px;
+    height: 35px;
+    display: grid;
+    border-radius: 50%;
+    place-items: center;
+    color: var(--theam-icon-color);
 }
+
 .button{
     padding: 1.3rem 2rem;
     font-size: 1.5rem;

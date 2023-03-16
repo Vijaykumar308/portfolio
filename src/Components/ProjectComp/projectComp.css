@@ -43,8 +43,12 @@
     border: 1px solid var(--black-and-white-color);
     color: var(--black-and-white-color);
 }
-
-@media (max-width:900px) {
+.techStack{
+    font-size: initial;
+    color: var(--black-and-white-color);
+    margin-bottom: 2.1rem;
+}
+    @media (max-width:900px) {
     .containerFlex{
         flex-direction: column;
     }
