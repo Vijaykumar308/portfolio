@@ -247,3 +247,11 @@
         grid-template-columns: 1fr;
     }
 }
+@media (max-width:664px) {
+    .profileDetials{
+        margin-left: 1rem;
+    }
+    .name{
+        margin-top: 1rem;
+    }
+}
