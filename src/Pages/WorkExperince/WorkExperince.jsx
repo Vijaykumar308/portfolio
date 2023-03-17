@@ -45,10 +45,10 @@ function WorkExperince() {
             <h1 className="expName">Intership</h1>
             <div className="companyAndDuration">
               <span className="comapnyName">Kochar Tech</span>
-              <span>5 Months</span>
+              <span>3 Months</span>
             </div>
             <p className="jobDescp">
-              Bassically, it was a 6 Months of Intership which I got promoted to on job just after 5 months of my learning into this Intership and got an offer to continue as a full time employee with kochar tech.
+              In 2021, I got Internship from kochar tech where I got opportunities to work with senior software developers  
             </p>
             <p className="jobDescp">
               Here, I learned about PHP and postgres also I got introduced by some new tools such as jira, CRM, Notations, etc which is helpfull to determine our work process.

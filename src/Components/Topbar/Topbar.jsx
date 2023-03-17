@@ -62,11 +62,11 @@ const Topbar = () => {
 
 
                 <div className='nav'>
-                    <a href='https://www.instagram.com/mr.vijay.kumar308/' target={"_blank"} rel="noreferrer">
+                    <a href='https://github.com/Vijaykumar308/' target={"_blank"} rel="noreferrer">
                         <AiFillGithub />
                     </a>
                   
-                    <a href='https://www.instagram.com/mr.vijay.kumar308/' target={"_blank"} rel="noreferrer">
+                    <a href='https://www.linkedin.com/in/vijay-kumar-679ab2221/' target={"_blank"} rel="noreferrer">
                         <AiFillLinkedin />
                     </a>
 

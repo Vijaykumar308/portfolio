@@ -26,15 +26,13 @@ export const Home = () => {
           </div>
           <div className='profileRightSide'>
 
-            <a href="">
+            <a href="https://www.linkedin.com/in/vijay-kumar-679ab2221/">
               <button className="btn linkedInButton">LinkedIn</button>
             </a>
 
             <a href="">
               <button className="btn ResumeDownload">Resume</button>
             </a>
-
-
           </div>
         </div>
 
