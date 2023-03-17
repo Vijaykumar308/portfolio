@@ -1,8 +1,7 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import "./sidebar.css";
 import {AiFillHome} from "react-icons/ai";
 import {FcExpand} from "react-icons/fc";
-// import {DiGoogleAnalytics} from "react-icons/di";
 import {FaGraduationCap, FaBriefcase} from 'react-icons/fa';
 import {SiPolymerproject, SiAboutdotme} from 'react-icons/si';
 
@@ -37,7 +36,7 @@ const Sidebar = () => {
                         <NavLink to="work-experince">
                             <li className="sidebarListItem">
                                 <FaBriefcase className="sidebar-icons" />
-                                <span className={`sidebarListItemLabel ${!isCollapsed ? 'd-none' : ""}`}>Work Experince</span>
+                                <span className={`sidebarListItemLabel ${!isCollapsed ? 'd-none' : ""}`}>Work Experience</span>
                             </li>
                         </NavLink>
 

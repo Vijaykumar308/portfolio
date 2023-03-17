@@ -1,13 +1,13 @@
 import "./home.css";
 import profilePic from "../../Images/profile_pic.jpg";
 import { MdVerified } from "react-icons/md";
-import {FaReact, FaServer,FaDatabase} from "react-icons/fa";
+import {FaReact, FaDatabase} from "react-icons/fa";
 import {BiServer} from "react-icons/bi";
 import { NavLink } from "react-router-dom";
-import Footer from "../../Components/Footer/Footer";
 import {HiLocationMarker} from 'react-icons/hi';
 import {ImMobile} from 'react-icons/im';
 import {AiOutlineMail} from 'react-icons/ai';
+
 export const Home = () => {
   return (
     <>
@@ -41,7 +41,7 @@ export const Home = () => {
         <section className="homePageAbout">
           <div className="experience">
             <h2>Experience</h2>
-            <p>I specialise in UX/UI design, backend technologies & overall web Devlopment</p>
+            <p>I specialize in UX/UI design, backend technologies & overall web development</p>
             <hr />
             <h3>About me</h3>
             <p className="para">I am an aspiring web developer with, having 1+ year of industrial experience. I am quite passionate about learning & exploring the tech related stuff and Being Good At What I Do.</p>
@@ -94,19 +94,19 @@ export const Home = () => {
             <div className="item frontend">
               <div className="tech-icon"><FaReact/></div>
               <h3>Front-End</h3>
-              <span className="description">Experiece with HTML CSS, React.js</span>
+              <span className="description">Experience with HTML CSS, React.js</span>
             </div>
 
             <div className="item backend">
             <div className="tech-icon"><BiServer/></div>
               <h3>Back-End</h3>
-              <span className="description">Experiece with PHP & mySQL</span>
+              <span className="description">Experience with PHP & mySQL</span>
             </div>
 
             <div className="item tools">
               <div className="tech-icon"><FaDatabase/></div>
               <h3>Database</h3>
-              <span className="description">Experiece with MySQL, Postgres.</span>
+              <span className="description">Experience with MySQL, Postgres.</span>
             </div>
           </div>
         </div>
