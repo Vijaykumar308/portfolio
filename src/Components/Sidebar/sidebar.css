@@ -37,14 +37,13 @@
     margin-left: 1.2rem;
 
 }
-.active > *{
+.active > li{
     background-color: var(--secondary-color-100);
-    color: #000;
     border-radius: 0;
     border-right: 5px solid var(--secondary-color-100);
 }
-.active > *:hover{
-    color: #000 !important;
+.active > li > *{
+    color: #000;
 }
 .sidebarListItem:hover{
     color: #fff;

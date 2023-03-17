@@ -1,0 +1,19 @@
+.projects{
+    width: 90%;
+    margin: auto;
+}
+.projects > h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 3.7rem;
+    color: var(--black-and-white-color);
+}
+.projects > h1::after {
+    content: '';
+    width: 28rem;
+    height: 2px;
+    background-color: #204872;
+    display: inline-block;
+    margin-bottom: .9rem;
+    margin-left: .5rem;
+}

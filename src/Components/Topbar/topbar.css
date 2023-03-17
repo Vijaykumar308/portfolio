@@ -17,6 +17,23 @@
     position: sticky;
     top: 0;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
+.wrapperTheamIcon{
+    transition: .5s all;
+    background: var(--thame-icon-bg);
+    font-size: 17px;
+    margin-left: 2rem;
+    width: 35px;
+    height: 35px;
+    display: grid;
+    border-radius: 50%;
+    place-items: center;
+    color: var(--theam-icon-color);
+}
+
 .button{
     padding: 1.3rem 2rem;
     font-size: 1.5rem;
@@ -36,7 +53,98 @@
 }
 .logo-title{
     letter-spacing: 1px;
-    font-size: 29px;
+    font-size: 2.9rem;
+    color: #fff;
     font-weight: 500;
-    text-shadow: 2px 2px 3px firebrick;
+    /* text-shadow: 2px 2px 3px firebrick; */
+    text-transform: uppercase;
+}
+
+/* Hamburger Menu Design and Functionality */
+.hamburgerMenu {
+    display: none;
+}
+.hamburgerMenuIcon{
+    font-size: 2.6rem;
+    border-radius: 1.2rem;
+}
+
+.btn.btn-success-100{
+    background-color: var(--secondary-color-100);
+}
+
+/* inside mobileViewSlider */
+.iconAndLabel {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.iconAndLabel > :first-child{
+    margin-right: 1.4rem;
+}
+
+.closedIcon {
+    font-size: 3rem;
+}
+
+input[type='checkbox']:checked ~ .mobileViewSlider {
+    transform: translateX(0px); 
+    opacity: 1; 
+    display: none;
+}
+
+/* Default Hide; shows when clicked on Hamburger menu*/
+.mobileViewSlider{
+    background: #15283c;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    top: 5.9rem;
+    right: 0;
+    transition: 1s all;
+    transform: translateX(1700px);
+    opacity: 1;
+
+}
+/* Content Inside mobileViewSlider  */
+.mobileViewSlider > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60%;
+    font-size: 2.3rem;
+    letter-spacing: 1px;
+}
+
+/* =========== */
+@media (max-width: 516px) {
+    .hamburgerMenu{
+        display: block;
+        transition: 4s all;
+    }
+
+    input[type='checkbox']:checked ~ .mobileViewSlider {
+        transform: translateX(0px); 
+        opacity: 1;
+        display: block; 
+    }
+
+    .mobileViewSlider{
+        transform: translateX(500px);
+    }
+
+    /* don't remove */
+    .nav{
+        display: none;
+    }
+}
+
+/* increaing width; so that it'll be take required space */
+@media (max-width: 350px) {
+    .mobileViewSlider{
+        width: 70%;
+    }
 }

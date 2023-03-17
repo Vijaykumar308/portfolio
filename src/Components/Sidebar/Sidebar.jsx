@@ -1,8 +1,9 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import "./sidebar.css";
 import {AiFillHome} from "react-icons/ai";
 import {FcExpand} from "react-icons/fc";
-import {DiGoogleAnalytics} from "react-icons/di"
+import {FaGraduationCap, FaBriefcase} from 'react-icons/fa';
+import {SiPolymerproject, SiAboutdotme} from 'react-icons/si';
 
 import { NavLink } from "react-router-dom";
 
@@ -27,28 +28,28 @@ const Sidebar = () => {
 
                         <NavLink to="/about">
                             <li className="sidebarListItem">
-                                <DiGoogleAnalytics className="sidebar-icons" />
+                                <SiAboutdotme className="sidebar-icons" />
                                 <span className={`sidebarListItemLabel ${!isCollapsed ? 'd-none' : ""}`}>About Me</span>
                             </li>
                         </NavLink>
 
                         <NavLink to="work-experince">
                             <li className="sidebarListItem">
-                                <DiGoogleAnalytics className="sidebar-icons" />
-                                <span className={`sidebarListItemLabel ${!isCollapsed ? 'd-none' : ""}`}>Work Experince</span>
+                                <FaBriefcase className="sidebar-icons" />
+                                <span className={`sidebarListItemLabel ${!isCollapsed ? 'd-none' : ""}`}>Work Experience</span>
                             </li>
                         </NavLink>
 
                         <NavLink to="skills">
                             <li className="sidebarListItem">
-                                <AiFillHome className="sidebar-icons" />
+                                <FaGraduationCap className="sidebar-icons" />
                                 <span className={`sidebarListItemLabel ${!isCollapsed ? 'd-none' : ""}`}>Skills</span>
                             </li>
                         </NavLink>
 
                          <NavLink to="projects">
                          <li className="sidebarListItem">
-                                <AiFillHome className="sidebar-icons" />
+                                <SiPolymerproject className="sidebar-icons" />
                                 <span className={`sidebarListItemLabel ${!isCollapsed ? 'd-none' : ""}`}>Projects</span>
                             </li>
                         </NavLink>

@@ -1,0 +1,95 @@
+.workExperince{
+    width: 90%;
+    margin: auto;
+}
+.wrapperImg{
+    width: 2.3rem;
+}
+.careerPorfileHeading{
+    /* background: rebeccapurple; */
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    text-transform: uppercase;
+}
+.careerPorfileHeading img{
+    width: 4.1rem;
+    height: 3.8rem;
+    padding: .7rem;
+    background: var(--secondary-color-100);
+    border-radius: .2rem;
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.careerPorfileHeading h1{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--black-and-white-color);
+}
+.CarrerProfilePara {
+    color: var(--para-color);
+    line-height: 2.7rem;
+    font-size: 1.6rem;
+    margin-top: 1.3rem;
+}
+
+.experienceHeadingContainer{
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+}
+.experienceHeadingContainer .fa-briefcase{
+    font-size: 2.2rem;
+    color: var(--black-and-white-color);
+}
+.myExperienceHeading{
+    margin: 3rem 0rem;
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    color: var(--black-and-white-color);
+}
+
+.workExperience{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+}
+
+.year{
+    background: var(--secondary-color-100);
+    padding: 12px 11px;
+    font-size: 12px;
+    border-radius: 24px;
+    display: inline-block;
+}
+.expName{
+    margin: 16px 0px;
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--black-and-white-color);
+}
+.companyAndDuration {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    color: var(--black-and-white-color);
+}
+.comapnyName{
+    font-size: 13px;
+}
+.col .jobDescp{
+    font-size: 1.6rem;
+    color: var(--para-color);
+    padding: 1rem 0;
+    text-align: justify;
+    /* text-transform: capitalize; */
+    line-height: 4rem;
+}
+@media (max-width: 600px) {
+    .experience {
+        grid-template-columns: 1fr;
+    }
+}

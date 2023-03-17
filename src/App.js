@@ -3,8 +3,10 @@ import './App.css';
 
 import Topbar from "./Components/Topbar/Topbar";
 import Sidebar from './Components/Sidebar/Sidebar';
+import MobileNav from "./Components/MobileNavbar/MobileNav"
 import { Home } from "./Pages/Home/Home";
 import { AboutMe } from "./Pages/AboutMe/AboutMe";
+import Footer from "./Components/Footer/Footer";
 import WorkExperince from "./Pages/WorkExperince/WorkExperince";
 import Skills from "./Pages/Skills/Skills";
 import Projects from "./Pages/Projects/Projects";
@@ -14,8 +16,9 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <Topbar />
+      <MobileNav/> 
       <div className='container'>
-          <Sidebar />  
+          <Sidebar /> 
         <div className='contant'>
           <Routes>
             <Route path='/' element={<Home />} />
@@ -24,6 +27,7 @@ function App() {
             <Route path='/skills' element={<Skills />} />
             <Route path='/projects' element={<Projects />} />
           </Routes>
+          <Footer/>
         </div>
       </div>
     </div>
