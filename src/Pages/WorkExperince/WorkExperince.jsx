@@ -26,7 +26,7 @@ function WorkExperince() {
 
           <div className="workExperience">
           <div className="col">
-          <span className="year"> May,2022 - Aug, 2023</span>
+          <span className="year"> May,2022 - present</span>
             <h1 className="expName">Jr. Engineer </h1>
             <div className="companyAndDuration">
               <span className="comapnyName">Kochar Tech</span>
