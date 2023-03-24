@@ -26,7 +26,7 @@ function mobileNav() {
             <NavLink to="/skills">
                 <FaGraduationCap className="menuIcons"/>
             </NavLink>
-            <NavLink to="/">
+            <NavLink to="/portfolio">
                 {/* <img src={HomeIcon}  alt="sdf" className="menuIcons"/> */}
                 <AiFillHome  className="menuIcons"/>
             </NavLink>
