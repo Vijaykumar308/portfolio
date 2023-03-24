@@ -22,6 +22,7 @@ function App() {
         <div className='contant'>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/portfolio' element={<Home />} />
             <Route path='/about' element={<AboutMe />} />
             <Route path='/work-experince' element={<WorkExperince />} />
             <Route path='/skills' element={<Skills />} />
