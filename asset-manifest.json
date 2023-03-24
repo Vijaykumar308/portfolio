@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/portfolio/static/css/main.c7e11a94.css",
-    "main.js": "/portfolio/portfolio/static/js/main.45b9e513.js",
+    "main.js": "/portfolio/portfolio/static/js/main.0d14b71b.js",
     "static/media/profile-pic.jpg": "/portfolio/portfolio/static/media/profile-pic.425087bec19fae1a26ef.jpg",
     "static/media/emp-management.png": "/portfolio/portfolio/static/media/emp-management.d0640ace9cb3c9eeec23.png",
     "static/media/pattern_h.png": "/portfolio/portfolio/static/media/pattern_h.57f5f35ebc6d90529f63.png",
@@ -26,10 +26,10 @@
     "static/media/js.png": "/portfolio/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/portfolio/index.html",
     "main.c7e11a94.css.map": "/portfolio/portfolio/static/css/main.c7e11a94.css.map",
-    "main.45b9e513.js.map": "/portfolio/portfolio/static/js/main.45b9e513.js.map"
+    "main.0d14b71b.js.map": "/portfolio/portfolio/static/js/main.0d14b71b.js.map"
   },
   "entrypoints": [
     "static/css/main.c7e11a94.css",
-    "static/js/main.45b9e513.js"
+    "static/js/main.0d14b71b.js"
   ]
 }
