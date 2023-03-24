@@ -5,7 +5,8 @@
     flex: 1; 
     height: calc(100vh - 60px);
     background-color: rgb(251, 251, 255);
-    background-color: #15283c;
+    background-color: var(--primary-color-800);
+    background-image: url('../../Images/pattern_h.png');
     position: sticky;
     top: 60px;
     transition: .5s ease;
