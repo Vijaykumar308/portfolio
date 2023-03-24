@@ -19,7 +19,7 @@ const Sidebar = () => {
             <div className="sidebarWrapper">
                 <div className="sidebarMenu">
                     <ul className="sidebarList">
-                        <NavLink to="/portfolio">
+                        <NavLink to="/">
                             <li className="sidebarListItem">
                                 <AiFillHome className="sidebar-icons" />
                                 <span className={`sidebarListItemLabel ${!isCollapsed ? 'd-none' : ""}`}>Home</span>
