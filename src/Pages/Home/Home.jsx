@@ -8,6 +8,8 @@ import {HiLocationMarker} from 'react-icons/hi';
 import {ImMobile} from 'react-icons/im';
 import {AiOutlineMail} from 'react-icons/ai';
 
+import resume from '../Resume-vijay-01.docx';
+
 export const Home = () => {
   return (
     <>
@@ -30,7 +32,7 @@ export const Home = () => {
               <button className="btn linkedInButton">LinkedIn</button>
             </a>
 
-            <a href="">
+            <a href={resume} download="vijay-resume-01">
               <button className="btn ResumeDownload">Resume</button>
             </a>
           </div>
