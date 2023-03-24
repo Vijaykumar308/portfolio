@@ -21,7 +21,7 @@ function App() {
           <Sidebar /> 
         <div className='contant'>
           <Routes>
-            <Route path='/portfolio' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='/about' element={<AboutMe />} />
             <Route path='/work-experince' element={<WorkExperince />} />
             <Route path='/skills' element={<Skills />} />
