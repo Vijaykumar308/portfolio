@@ -1,24 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f7e33ac8.css",
-    "main.js": "/portfolio/static/js/main.21a25583.js",
+    "main.js": "/portfolio/static/js/main.4e72559a.js",
+    "static/media/vijay_kumar_01.pdf": "/portfolio/static/media/vijay_kumar_01.1b820c8c5d8eb41e6c8f.pdf",
     "static/media/profile-pic.jpg": "/portfolio/static/media/profile-pic.425087bec19fae1a26ef.jpg",
     "static/media/emp-management.png": "/portfolio/static/media/emp-management.d0640ace9cb3c9eeec23.png",
     "static/media/pattern_h.png": "/portfolio/static/media/pattern_h.57f5f35ebc6d90529f63.png",
     "static/media/crm.png": "/portfolio/static/media/crm.3a8f1321239ef3b8f00b.png",
     "static/media/time-calculator.png": "/portfolio/static/media/time-calculator.ca297a19200e0d2ef382.png",
     "static/media/profile_pic.jpg": "/portfolio/static/media/profile_pic.788844f8803438a5b749.jpg",
-    "static/media/Resume-vijay-01.docx": "/portfolio/static/media/Resume-vijay-01.0c73304eb73b422ab17e.docx",
-    "static/media/aboutMeIcon.png": "/portfolio/static/media/aboutMeIcon.de845e214a3bde95ca69.png",
-    "static/media/homeIcon.png": "/portfolio/static/media/homeIcon.a8c0a32a142128f20d48.png",
     "static/media/react.png": "/portfolio/static/media/react.17e5cb984343d1346ebd.png",
-    "static/media/skillsIcon.png": "/portfolio/static/media/skillsIcon.105e74ba922c1157abf0.png",
     "static/media/php.png": "/portfolio/static/media/php.4990580e9b615aeebb1f.png",
     "static/media/git.png": "/portfolio/static/media/git.bad2b1118eff814bb319.png",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.007e99f68b718e476aba.png",
-    "static/media/workingIcon.png": "/portfolio/static/media/workingIcon.8f83b3e91530c8c65f51.png",
     "static/media/sql.png": "/portfolio/static/media/sql.e10b540b6924da3831f5.png",
-    "static/media/projectIcon.png": "/portfolio/static/media/projectIcon.dd0dc1a2df264fbf8944.png",
     "static/media/github1.png": "/portfolio/static/media/github1.553c66159c5672f25df6.png",
     "static/media/profileIcon.png": "/portfolio/static/media/profileIcon.28ec5b21f8dfee4198ff.png",
     "static/media/gitlab.png": "/portfolio/static/media/gitlab.c3b1dcfdfda9aa721677.png",
@@ -26,10 +21,10 @@
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
     "main.f7e33ac8.css.map": "/portfolio/static/css/main.f7e33ac8.css.map",
-    "main.21a25583.js.map": "/portfolio/static/js/main.21a25583.js.map"
+    "main.4e72559a.js.map": "/portfolio/static/js/main.4e72559a.js.map"
   },
   "entrypoints": [
     "static/css/main.f7e33ac8.css",
-    "static/js/main.21a25583.js"
+    "static/js/main.4e72559a.js"
   ]
 }
