@@ -3,7 +3,7 @@ import "./topbar.css";
 import {AiFillInstagram, AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 import {GiHamburgerMenu} from "react-icons/gi";
 import {BsFillSunFill, BsFillMoonFill} from 'react-icons/bs';
-import resume from '../../Pages/Resume-vijay-01.docx';
+import resume from '../../Pages/vijay_kumar_01.pdf';
 const Topbar = () => {
     let [isHamburger, setIsHamburger] = useState(true);
     let [theam, setTheam] = useState("dark-mode");
@@ -54,7 +54,7 @@ const Topbar = () => {
                                 <i className="fa-brands fa-instagram"></i>
                                 <li className='instagram'><a href="https://instagram.com/mr.vijay.kumar308">Instagram</a></li>
                             </div>
-                            <a href={resume} download={resume}>
+                            <a href={resume} download="vijay_kumar_01">
                                 <button className='btn btn-success-100'>Download CV</button>
                             </a>
                         </ul>
