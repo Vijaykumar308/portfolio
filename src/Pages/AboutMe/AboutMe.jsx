@@ -4,7 +4,7 @@ import Heading from '../../Components/Heading/Heading';
 export const AboutMe = () => {
   return (
     <>
-      <Heading title="About Me" />
+      <Heading title="About Me"/>
       <div className='aboutMe'>
         <div className="main">
           <div className="imageContainer">
@@ -19,7 +19,7 @@ export const AboutMe = () => {
               I am an aspiring web developer having 1+ year of industrial experience in overall web development.
             </p>
             <p className="aboutMePara">
-              My name is VIJAY KUMAR. I have completed my graduation in Bachelor of Computer Application from G.N.D.U Amritsar (Punjab) in the year of 2018-2021. In final year of my graduation I was prepare myself to get a job ready skills. I'm learnt HTML CSS javascript and PHP & basics of SQL.
+              My name is VIJAY KUMAR. I have completed my graduation in Bachelor of Computer Application from G.N.D.U Amritsar (Punjab) in the year of 2018-2021. In final year of my graduation I was prepare myself to get a job ready skills. I learnt HTML CSS javascript and PHP & basics of SQL.
             </p>
 
             <p className="aboutMePara">
