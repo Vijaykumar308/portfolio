@@ -1,12 +1,4 @@
 import "./mobileNav.css";
-
-/* Icons added */
-import HomeIcon from "../../FlatIcons/homeIcon.png";
-import AboutMeIcon from "../../FlatIcons/aboutMeIcon.png";
-import WorkExperience  from "../../FlatIcons/workingIcon.png";
-import SkillsIcon from "../../FlatIcons/skillsIcon.png";
-import projectIcon from "../../FlatIcons/projectIcon.png";
-
 import {AiFillHome} from "react-icons/ai";
 import {FaGraduationCap, FaBriefcase} from 'react-icons/fa';
 import {SiPolymerproject, SiAboutdotme} from 'react-icons/si';
