@@ -80,7 +80,9 @@
     display: flex;
     align-items: center;
 }
-
+.iconAndLabel > li {
+    font-size: 19px;
+}
 .iconAndLabel > :first-child{
     margin-right: 1.4rem;
 }
