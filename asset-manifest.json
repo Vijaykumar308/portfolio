@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.34399bc8.css",
-    "main.js": "/portfolio/static/js/main.090efcd0.js",
-    "static/media/vijay_kumar_01.pdf": "/portfolio/static/media/vijay_kumar_01.1b820c8c5d8eb41e6c8f.pdf",
+    "main.js": "/portfolio/static/js/main.57cce677.js",
     "static/media/profile-pic.jpg": "/portfolio/static/media/profile-pic.425087bec19fae1a26ef.jpg",
     "static/media/emp-management.png": "/portfolio/static/media/emp-management.d0640ace9cb3c9eeec23.png",
     "static/media/pattern_h.png": "/portfolio/static/media/pattern_h.57f5f35ebc6d90529f63.png",
@@ -13,6 +12,7 @@
     "static/media/php.png": "/portfolio/static/media/php.4990580e9b615aeebb1f.png",
     "static/media/git.png": "/portfolio/static/media/git.bad2b1118eff814bb319.png",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/vijay_kumar_01.pdf": "/portfolio/static/media/vijay_kumar_01.4b877321495924bbe0b4.pdf",
     "static/media/sql.png": "/portfolio/static/media/sql.e10b540b6924da3831f5.png",
     "static/media/github1.png": "/portfolio/static/media/github1.553c66159c5672f25df6.png",
     "static/media/profileIcon.png": "/portfolio/static/media/profileIcon.28ec5b21f8dfee4198ff.png",
@@ -21,10 +21,10 @@
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
     "main.34399bc8.css.map": "/portfolio/static/css/main.34399bc8.css.map",
-    "main.090efcd0.js.map": "/portfolio/static/js/main.090efcd0.js.map"
+    "main.57cce677.js.map": "/portfolio/static/js/main.57cce677.js.map"
   },
   "entrypoints": [
     "static/css/main.34399bc8.css",
-    "static/js/main.090efcd0.js"
+    "static/js/main.57cce677.js"
   ]
 }
