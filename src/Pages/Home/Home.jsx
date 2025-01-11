@@ -4,11 +4,10 @@ import { MdVerified } from "react-icons/md";
 import {FaReact, FaDatabase} from "react-icons/fa";
 import {BiServer} from "react-icons/bi";
 import { NavLink } from "react-router-dom";
-import {HiLocationMarker} from 'react-icons/hi';
 import {ImMobile} from 'react-icons/im';
 import {AiOutlineMail} from 'react-icons/ai';
 
-import resume from '../vijay_kumar_01.pdf';
+import resume from '../cv_mern_stack_vijay.pdf';
 
 export const Home = () => {
   return (
@@ -23,7 +22,7 @@ export const Home = () => {
 
             <div className='profileDetials'>
               <h2 className="name">Vijay Kumar <span className="verifiedBadge"><MdVerified /></span> </h2>
-              <p>I'm a Web Developer Based in Amritsar.</p>
+              <p>Full Stack Developer (MERN, LAMP).</p>
             </div>
           </div>
           <div className='profileRightSide'>
@@ -41,12 +40,12 @@ export const Home = () => {
         <section className="homePageAbout">
           <div className="experience">
             <h2>Experience</h2>
-            <p>I specialize in UX/UI design, backend technologies & overall web development</p>
+            <p>I specialize in Full Stack Developement, with various technologies Such as MERN Stack, PHP and in Database used MySQL, Postgress.</p>
             <hr />
             <h3>About me</h3>
-            <p className="para">I am an aspiring web developer with, having 1+ year of industrial experience. I am quite passionate about learning & exploring the tech related stuff and Being Good At What I Do.</p>
+            <p className="para">I am an aspiring web developer with, having {new Date().getFullYear() - 2022 } year of industrial experience. I am quite passionate about learning & exploring the tech related stuff and Being Good At What I Do.</p>
             <p className="para">
-            My name is <strong>VIJAY KUMAR</strong>. I have completed Bachelor of Computer Application from G.N.D.U Amritsar (Punjab). I'm always on the lookout for opportunities to collaborate on new ideas & tech related stuff.</p>
+              My name is <strong>VIJAY KUMAR</strong>. I have completed Bachelor of Computer Application from G.N.D.U Amritsar (Punjab). I'm always on the lookout for opportunities to collaborate on new ideas & tech related stuff.</p>
 
               <NavLink to="/about">
                 <button className="btn readmore"> Read More</button>
@@ -56,21 +55,25 @@ export const Home = () => {
           <div className="skillsSection">
             <div className="skills">
               <h4>Tech Skills</h4>
-              <span className="skills-design">React</span>
               <span className="skills-design">Javascript</span>
+              <span className="skills-design">React JS</span>
+              <span className="skills-design">Node JS</span>
+              <span className="skills-design">Express</span>
+              <span className="skills-design">MongoDB</span>
+              <span className="skills-design">MySQL</span>
+              <span className="skills-design">Postgress</span>
               <span className="skills-design">PHP</span>
-              <span className="skills-design">SQL</span>
-              <span className="skills-design">HTML</span>
-              <span className="skills-design">CSS</span>
+              <span className="skills-design">HTML 5</span>
+              <span className="skills-design">CSS & Tailwindcss</span>
               <span className="skills-design">Git</span>
               <span className="skills-design">Github</span>
             </div>
 
-            <div className="location">  
+            {/* <div className="location">  
               <h5>Location</h5>
               <span><HiLocationMarker/></span>
               <span>Amritsar (Punjab), India</span>
-            </div>
+            </div> */}
 
             <div>   
               <h5>Mobile no.</h5>
@@ -94,19 +97,19 @@ export const Home = () => {
             <div className="item frontend">
               <div className="tech-icon"><FaReact/></div>
               <h3>Front-End</h3>
-              <span className="description">Experience with HTML CSS, React.js</span>
+              <span className="description">Experience with HTML CSS & Tailwindcss, React.js</span>
             </div>
 
             <div className="item backend">
             <div className="tech-icon"><BiServer/></div>
               <h3>Back-End</h3>
-              <span className="description">Experience with PHP & mySQL</span>
+              <span className="description">Experience with PHP, Node & Express JS</span>
             </div>
 
             <div className="item tools">
               <div className="tech-icon"><FaDatabase/></div>
               <h3>Database</h3>
-              <span className="description">Experience with MySQL, Postgres.</span>
+              <span className="description">Experience with MySQL, Postgres and MongoDB.</span>
             </div>
           </div>
         </div>
